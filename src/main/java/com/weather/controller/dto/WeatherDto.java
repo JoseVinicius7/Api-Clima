@@ -1,4 +1,4 @@
-package com.hackerrank.weather.controller.dto;
+package com.weather.controller.dto;
 
 import java.util.Date;
 import java.util.List;
@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import com.hackerrank.weather.model.Weather;
+import com.weather.model.Weather;
 
 public class WeatherDto {
 

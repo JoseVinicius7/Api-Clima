@@ -1,22 +1,22 @@
-package com.hackerrank.weather.service;
+package com.weather.service;
 
 import java.util.List;
 import java.util.Optional;
 
+import com.weather.controller.form.AtualizacaoWeatherForm;
+import com.weather.controller.form.WeatherForm;
+import com.weather.repository.WeatherRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.hackerrank.weather.controller.form.AtualizacaoWeatherForm;
-import com.hackerrank.weather.controller.form.WeatherForm;
-import com.hackerrank.weather.exception.WeatherNotFoundException;
-import com.hackerrank.weather.model.Weather;
-import com.hackerrank.weather.repository.WeatherRepository;
+import com.weather.exception.WeatherNotFoundException;
+import com.weather.model.Weather;
 
 @Service
 public class WeatherServiceImpl implements WeatherService {
 
 	@Autowired
-	WeatherRepository weatherRepository;
+    WeatherRepository weatherRepository;
 
 	@Override
 	public Weather save(WeatherForm form) {

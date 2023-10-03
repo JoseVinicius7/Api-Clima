@@ -1,10 +1,10 @@
-package com.hackerrank.weather.service;
+package com.weather.service;
 
 import java.util.List;
 
-import com.hackerrank.weather.controller.form.AtualizacaoWeatherForm;
-import com.hackerrank.weather.controller.form.WeatherForm;
-import com.hackerrank.weather.model.Weather;
+import com.weather.controller.form.AtualizacaoWeatherForm;
+import com.weather.controller.form.WeatherForm;
+import com.weather.model.Weather;
 
 public interface WeatherService {
 

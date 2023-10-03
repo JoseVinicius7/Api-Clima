@@ -1,4 +1,4 @@
-package com.hackerrank.weather.exception;
+package com.weather.exception;
 
 public class WeatherNotFoundException extends RuntimeException {
 

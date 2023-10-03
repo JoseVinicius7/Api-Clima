@@ -1,11 +1,11 @@
-package com.hackerrank.weather.controller.form;
+package com.weather.controller.form;
 
 import java.util.Date;
 
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import com.hackerrank.weather.model.Weather;
+import com.weather.model.Weather;
 
 public class WeatherForm {
 

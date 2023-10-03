@@ -1,4 +1,4 @@
-package com.hackerrank.weather.controller;
+package com.weather.controller;
 
 import java.net.URI;
 import java.util.List;
@@ -6,6 +6,8 @@ import java.util.List;
 import javax.transaction.Transactional;
 import javax.validation.Valid;
 
+import com.weather.controller.form.AtualizacaoWeatherForm;
+import com.weather.controller.form.WeatherForm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -18,11 +20,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.hackerrank.weather.controller.dto.WeatherDto;
-import com.hackerrank.weather.controller.form.AtualizacaoWeatherForm;
-import com.hackerrank.weather.controller.form.WeatherForm;
-import com.hackerrank.weather.model.Weather;
-import com.hackerrank.weather.service.WeatherService;
+import com.weather.controller.dto.WeatherDto;
+import com.weather.model.Weather;
+import com.weather.service.WeatherService;
 
 @RestController
 @RequestMapping("/weather")
